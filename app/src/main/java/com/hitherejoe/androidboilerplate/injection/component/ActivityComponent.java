@@ -19,7 +19,5 @@ public interface ActivityComponent {
     void inject(MainActivity mainActivity);
     void inject(CharacterActivity characterActivity);
     void inject(DetailActivity detailActivity);
-
-    void inject(DetailFragment detailFragment);
 }
 

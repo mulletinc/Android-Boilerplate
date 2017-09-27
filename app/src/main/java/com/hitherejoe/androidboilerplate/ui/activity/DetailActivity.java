@@ -13,8 +13,11 @@ import android.support.v7.widget.Toolbar;
 import com.hitherejoe.androidboilerplate.R;
 import com.hitherejoe.androidboilerplate.data.model.Character;
 import com.hitherejoe.androidboilerplate.ui.fragment.DetailFragment;
+import com.hitherejoe.androidboilerplate.util.NetworkUtil;
 
 import java.util.ArrayList;
+
+import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
